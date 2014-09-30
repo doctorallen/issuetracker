@@ -24,12 +24,10 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('TheTerminator'),
-	'production' => array('issuetracker'),
-
-));
+$env = $app->detectEnvironment(function()
+{
+	return 'local';
+});
 
 /*
 |--------------------------------------------------------------------------

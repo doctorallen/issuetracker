@@ -3,6 +3,21 @@ The issue tracker is a simple application for tracking issues found while develo
 allowing clients to submit bug reports and grabbing any browser/user information it can parse. Knowing the browser with version, as well as window size is often half the battle when
 trying to recreate bugs.
 
+Some of the major features of the issue tracker:
+* Simple yet comprehensive issue reporting form
+* User management and authentication system including password reset
+* Simple project management system
+* Fully fledged subscription based notification system
+* Sortable table views
+* Design is entirely responsive
+
+## Notification System
+The issue tracker has a fully featured notification subscription system, which automatically subscribes users to projects and issues based on their actions, but allows the user to manage
+their own subscriptions if they want to watch a particular issue they might not have interacted with, or if they want to remove notifications from and issue they are no longer interested in.
+
+![Image of Single Issue]
+(https://i.imgur.com/VJ7Syzl.png)
+
 #Setup
 1. Clone the codebase
 
